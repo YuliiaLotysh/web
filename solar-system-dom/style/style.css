@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  display: flex;
+  flex-wrap: wrap;
+  background: url(../img/background.jpg);
+}
+
+header {
+  width: 100%;
+}
+section {
+  width: 25%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 20px #842695;
+}
+aside {
+  width: 65%;
+}
+.wrap-header {
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 20px #842695;
+  border-radius: 8px;
+  background: black;
+}
+.header-name {
+  display: flex;
+  justify-content: center;
+  padding: 21px;
+  color: white;
+  letter-spacing: 12px;
+  font-size: 37px;
+  font-weight: 400;
+}
+
+#list-of-planet {
+  padding: 0;
+}
+.solar-planet {
+  width: 75%;
+  margin: 35px auto;
+  padding: 15px 0px 15px 0px;
+  font-size: 19px;
+  color: white;
+  background-color: black;
+  box-shadow: 2px 2px 2px 3px #842695;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  list-style-type: none;
+}
+
+.contentBlock {
+  color: white;
+  width: 80%;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+.name-of-planet {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 34px;
+  margin: 5px auto 20px auto;
+  letter-spacing: 7px;
+}
+
+.planet-image {
+  height: 250px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.planet-description {
+  margin: 20px 20px 0px 20px;
+  font-size: 22px;
+  text-align: justify;
+}
